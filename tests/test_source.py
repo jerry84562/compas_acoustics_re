@@ -1,4 +1,4 @@
-from compas_acoustics import Source, Directivity, DirectivityPattern
+from compas_acoustics_re import Source, Directivity, DirectivityPattern
 from compas.geometry import Point, Vector
 
 

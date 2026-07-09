@@ -1,7 +1,7 @@
 import pytest
 import numpy as np
 from pathlib import Path
-from compas_acoustics.auraliser import Auraliser
+from compas_acoustics_re.auraliser import Auraliser
 
 sample_rate_default = 48000
 

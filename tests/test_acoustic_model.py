@@ -1,4 +1,4 @@
-from compas_acoustics import (
+from compas_acoustics_re import (
     AcousticModel, Room, Component, SourceLibrary, Receiver, MaterialLibrary
 )
 from compas.geometry import Point, Vector

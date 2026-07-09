@@ -1,4 +1,4 @@
-from compas_acoustics import Component, ComponentCategory, MaterialLibrary
+from compas_acoustics_re import Component, ComponentCategory, MaterialLibrary
 from compas.datastructures import Mesh
 from compas_viewer import Viewer
 

@@ -1,24 +1,24 @@
 
 from compas.datastructures import Mesh
 
-from compas_acoustics import Source
-from compas_acoustics import Directivity
-from compas_acoustics import Component
-from compas_acoustics import ComponentCategory
-from compas_acoustics import Receiver
-from compas_acoustics import Room
-from compas_acoustics.libraries import MaterialLibrary
+from compas_acoustics_re import Source
+from compas_acoustics_re import Directivity
+from compas_acoustics_re import Component
+from compas_acoustics_re import ComponentCategory
+from compas_acoustics_re import Receiver
+from compas_acoustics_re import Room
+from compas_acoustics_re.libraries import MaterialLibrary
 
-from compas_acoustics.pra_converter import material_to_pra
-from compas_acoustics.pra_converter import component_to_pra_wall
-from compas_acoustics.pra_converter import receivers_to_pra_mic_array
-from compas_acoustics.pra_converter import directivity_to_pra
-from compas_acoustics.pra_converter import source_to_pra
-from compas_acoustics.pra_converter import room_to_pra_walls
+from compas_acoustics_re.pra_converter import material_to_pra
+from compas_acoustics_re.pra_converter import component_to_pra_wall
+from compas_acoustics_re.pra_converter import receivers_to_pra_mic_array
+from compas_acoustics_re.pra_converter import directivity_to_pra
+from compas_acoustics_re.pra_converter import source_to_pra
+from compas_acoustics_re.pra_converter import room_to_pra_walls
 
-from compas_acoustics.model import AcousticModel
-from compas_acoustics.simulator import SimulationMethod
-from compas_acoustics.simulator import PraSimulator
+from compas_acoustics_re.model import AcousticModel
+from compas_acoustics_re.simulator import SimulationMethod
+from compas_acoustics_re.simulator import PraSimulator
 
 
 # --------------------------------------------------------------------

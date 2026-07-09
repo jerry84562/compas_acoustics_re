@@ -1,4 +1,4 @@
-from compas_acoustics import SourceLibrary
+from compas_acoustics_re import SourceLibrary
 from compas.geometry import Point, Vector
 
 
